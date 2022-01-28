@@ -13,3 +13,4 @@ int(a[0])*int(a[1])+int(b[0])*int(b[1])+int(c[0])*int(c[1])+int(d[0])*int(d[1])+
 
 print(a+b+c+d+e+f+g+h+i+j)
 
+# 윤지혜 코멘트 : 주석없음, 잘못된 출력값

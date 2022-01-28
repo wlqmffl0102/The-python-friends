@@ -15,3 +15,6 @@ elif KIM_AVG < LEE_AVG:
     print("LEE WIN")
 elif KIM_AVG == LEE_AVG:
     print("무승부")
+
+
+#윤지혜 코멘트 : 주석없음

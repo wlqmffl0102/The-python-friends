@@ -10,3 +10,6 @@ elif a >= 60:
 	print("D")
 else:
 	print("error")
+
+
+# 윤지혜 코멘트 : 주석없음, input메시지 없음

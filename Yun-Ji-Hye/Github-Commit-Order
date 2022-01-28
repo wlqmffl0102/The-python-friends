@@ -1,0 +1,13 @@
+깃허브 커밋과정
+
+최초 repo 커밋 명령어 입력 순서
+- git init(현재 작업중인 폴더에서 git을 사용할 수 있도록 해줌)
+- git add .(폴더 내의 모든 파일(.이 모든 파일을 의미)을 git의 staging area에 추가)
+- git commit -m “commit message”(커밋과 동시에 -m으로 커밋 메세지 작성)
+- git remote add origin repostory주소(원격 저장소, 즉 github repository 주소를 origin 이라는 이름으로 등록)
+- git push -u origin master(origin이라는 원격 저장소에 master 브랜치에 푸시, 이때 -u를 쓴다면 다음번 부터 git push만 입력해도 origin의 master로 푸시가 된다.)
+
+이후(최초가 아닌 경우) 명령어 입력 순서 : 과정은 1번과 같으나 init과 원격 저장소 등록을 할 필요가 없다
+- git add .
+- git commit -m “commit message”
+- git push

@@ -1,0 +1,7 @@
+Git Commit 과정
+
+1. Git hub desktop에 들어간다
+2. 들어가면 보이는 화면에서 show in Explorer 누른다.
+3. 눌러서 나온 파일에 숙제 제출일 폴더 만들고 그 폴더 안에 저장한 숙제 파일들을 넣는다.
+4. 다시 Git hub desktop으로 돌아와서 초록색 + 표시된 파일들 전부 선택해서 commit해준다.
+5. pull/push 작업을 해준다.
