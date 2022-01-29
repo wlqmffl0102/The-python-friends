@@ -7,3 +7,6 @@ c = 43
 
 print(int(a*b))
 print(float(b*c))
+
+
+# very good
