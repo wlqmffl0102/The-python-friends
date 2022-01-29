@@ -8,5 +8,6 @@ c = 5
 
 
 if (a**2+b**2 == c**2):
-    print(a**2+b**2)
+    print(str(a)+"^2+"+str(b)+"^2 = "+str(a**2+b**2))
 
+#very good
