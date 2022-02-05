@@ -17,3 +17,4 @@ n9 = n7+n8
 print(str(n)+" "+str(n1)+" "+str(n2)+" "+str(n3)+" "+str(n4)+" "+str(n5)+" "+str(n6)+" "+str(n7)+" "+str(n8)+" "+str(n9))
 
 # 수정필요
+# 수정 완료 했습니당
