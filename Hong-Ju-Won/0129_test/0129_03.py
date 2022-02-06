@@ -14,6 +14,7 @@ n9 = n7+n8
 
 
 #print(int(n) + " " + int(n1) + " " + int(n2) + " " + int(n3) + " " + int(n4) + " " + int(n5) + " " + int(n6) + " " + int(n7) + " " + int(n8) + " " + int(n9))
-print(str(n) + " " + str(n1) + " ..." )
+print(str(n)+" "+str(n1)+" "+str(n2)+" "+str(n3)+" "+str(n4)+" "+str(n5)+" "+str(n6)+" "+str(n7)+" "+str(n8)+" "+str(n9))
 
 # 수정필요
+# 수정 완료 했습니당
