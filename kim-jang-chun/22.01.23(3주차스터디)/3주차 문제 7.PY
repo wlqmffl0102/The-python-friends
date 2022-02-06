@@ -1,8 +1,7 @@
-hour = input("hour:")
-min = input("min:")
-print("time:",hour,":",min)
+time = input("시간을 입력하세요 :")
+print(time)
 
-if min == "00":
+if time[2] == "0":
 	print("정각")
 else:
 	print("정각이 아닙니다.")
