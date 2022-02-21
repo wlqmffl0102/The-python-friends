@@ -9,9 +9,9 @@ avg = 0                     # 평균
 sum=0                       # 점수합계
 fails = []                  # 과락
 
-while True:          # 문제1
+while i<len(yun):          # 문제1
     if yun[i] <= 60:
-        continue  # 문제2
+        fails.append(yun[i])    # 문제2
     sum = sum + yun[i]        # 문제3
     i = i+1
 
@@ -30,12 +30,12 @@ elif Second_condition==True and first_condition==False:            # 두번째 �
     print("합격조건에 미달하였습니다.\n평균점수 : "+str(avg))
 elif Second_condition==False and first_condition==True:             # 첫번째 조건만 성립하는 경우 
     print("합격조건에 미달하였습니다.")
-    while fails:                                                 # 문제 5-1
+    while i==len(fails):                                                 # 문제 5-1
         print("과락점수 : "+str(fails[i]))                            # 문제 6-1
         i=i+1
 elif Second_condition==False and first_condition==False:            # 모든 조건을 만족하지 못하는 경우
     print("합격조건에 미달하였습니다. 평균점수미달 및 과락")
     print("평균점수 : "+str(avg))
-    while fails:                                                 # 문제 5-2
+    while i==len(fails):                                                 # 문제 5-2
         print("과락점수 : "+str(fails[i]))                            # 문제 6-2
         i=i+1
