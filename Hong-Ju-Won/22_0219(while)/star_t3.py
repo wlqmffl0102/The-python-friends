@@ -6,7 +6,7 @@ while i>0:
     # j 는 0 ~ 5 까지 1씩 증가 = 5 - i
     print("*"*i, end='')
     while j<i:
-        print(" "*(5-i), end='')
+        print("*"*(5-i), end='')
         j+=1
     print(" ")
     i-=1
