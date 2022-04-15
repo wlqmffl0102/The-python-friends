@@ -18,8 +18,10 @@ def round(select, r):
         return result
         # return 값
   
+select = int(input("1 또는 2를 입력하세요 : "))
+r = int(input("원 의 반지름을 입력하세요 : "))
 
-c = round(1,7)
+c = round(select,r)
 print(c)
 # 변수 c 를 생성하여 round 함수 호출(매개변수 2개)
 # 해당 변수 출력하여 return 받은 값 출력
