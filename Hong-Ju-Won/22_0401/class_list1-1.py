@@ -26,7 +26,7 @@ def class_list(choice, *args):
         # 추가된 이름까지 리스트 출력되도록 해봄
 
     elif choice == "종료":
-#        print("종료하겠습니다.")
+        print("종료하겠습니다.")
         # 종료하면 종료 문구 뜨도록 해봄
 
 
